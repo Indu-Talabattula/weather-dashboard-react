@@ -1,16 +1,127 @@
-# React + Vite
+# 🌤 Weather Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Weather Dashboard built using React and Vite. The application fetches real-time weather data from the OpenWeatherMap API and displays current weather conditions for any city entered by the user.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Search weather by city name
+* Real-time weather information using OpenWeatherMap API
+* Modern and responsive dashboard UI
+* Animated weather icons
+* Smooth CSS animations and hover effects
+* Displays:
 
-## React Compiler
+  * Temperature
+  * Weather Condition
+  * Humidity
+  * Wind Speed
+  * Feels Like Temperature
+  * Atmospheric Pressure
+* Mobile-friendly responsive design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Technologies Used
 
-## Expanding the ESLint configuration
+* React.js
+* Vite
+* JavaScript (ES6+)
+* CSS3
+* React Icons
+* OpenWeatherMap API
+* Git & GitHub
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+
+src/
+
+├── components/
+
+│ ├── Header.jsx
+
+│ ├── SearchBar.jsx
+
+│ ├── WeatherCard.jsx
+
+│ └── WeatherDetails.jsx
+
+├── App.jsx
+
+├── App.css
+
+├── main.jsx
+
+└── index.css
+
+## ⚙️ Installation
+
+1. Clone the repository:
+
+git clone https://github.com/Indu-Talabattula/weather-dashboard-react.git
+
+2. Navigate to the project directory:
+
+cd weather-dashboard-react
+
+3. Install dependencies:
+
+npm install
+
+4. Create a .env file in the project root:
+
+VITE_API_KEY=YOUR_OPENWEATHERMAP_API_KEY
+
+5. Start the development server:
+
+npm run dev
+
+## 🔑 API Configuration
+
+This project uses the OpenWeatherMap API.
+
+Create an account at OpenWeatherMap and generate an API key.
+
+Add your API key to the .env file:
+
+VITE_API_KEY=YOUR_API_KEY
+
+## 📸 Screenshots
+
+Add screenshots of the application here.
+
+Example:
+
+* Home Screen
+* Weather Search Result
+* Responsive Mobile View
+
+## 🎯 Learning Outcomes
+
+This project helped me gain practical experience with:
+
+* React Components
+* Props
+* State Management using useState
+* API Integration using Fetch
+* Conditional Rendering
+* Event Handling
+* Responsive UI Design
+* CSS Animations
+* Git and GitHub Version Control
+
+## 🔮 Future Enhancements
+
+* 5-Day Weather Forecast
+* Dark Mode Toggle
+* Geolocation-based Weather Detection
+* Weather Charts and Graphs
+* Dynamic Backgrounds Based on Weather Conditions
+
+## 👩‍💻 Author
+
+Indu Talabattula
+
+GitHub:
+https://github.com/Indu-Talabattula
+
+## 📄 License
+
+This project is created for educational and learning purposes.
